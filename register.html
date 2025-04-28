@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Global English Academy - Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Global English Academy</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="course.html">Course</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="register">
+      <h2>Register for Our English Speaking Course</h2>
+      <p><strong>Monthly Fee:</strong> ₹399</p>
+      <p><strong>Teacher:</strong> Abdul Qadir Khan</p>
+
+      <form action="https://formsubmit.co/abdulqadirchandpur@gmail.com" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+        <label for="course">Select Course Level:</label>
+        <select id="course" name="course" required>
+          <option value="">--Please choose one--</option>
+          <option>Beginner</option>
+          <option>Elementary</option>
+          <option>Pre-Intermediate</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+
+        <label for="payment">Confirm Monthly Fee (₹399):</label>
+        <input type="text" id="payment" name="payment" value="₹399" readonly>
+
+        <button type="submit">Submit Registration</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Global English Academy | Designed by Abdul Qadir Khan
+  </footer>
+</body>
+</html>
